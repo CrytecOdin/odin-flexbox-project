@@ -22,7 +22,7 @@ html, body {
 
 }
 
-.Header.Logo {
+.header-logo {
     margin-left: 75px;
     font-weight: 900;
 }
@@ -30,4 +30,48 @@ html, body {
 a {
     text-decoration: none;
     color: inherit;       
+}
+
+/* first container after the header css code */
+.first-container {
+    border: 2px solid yellow;
+    min-height: 30vh;
+    background-color: #1F2937;
+    display: flex;
+    
+}
+
+.left-part {
+    border: 2px solid green;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-part {
+    border: 2px solid purple;
+    flex: 1;
+}
+
+.right-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part .grey-box {
+    background-color: grey;
+    width: 250px;
+    height: 150px;
+}
+
+.left-button {
+    background-color: #3882F6;
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
 }
